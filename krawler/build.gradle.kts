@@ -101,7 +101,7 @@ mavenPublishing {
     coordinates(
         groupId = "solutions.dreamforge",
         artifactId = "krawler",
-        version = "0.0.1"
+        version = project.version.toString()
     )
 
 
