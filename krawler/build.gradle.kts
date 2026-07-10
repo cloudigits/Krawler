@@ -10,7 +10,8 @@ plugins {
 }
 
 group = "solutions.dreamforge.krawler"
-version = "0.0.1-SNAPSHOT"
+// JitPack sets the VERSION env var to the release tag being built
+version = System.getenv("VERSION") ?: "0.0.1-SNAPSHOT"
 
 @OptIn(ExperimentalWasmDsl::class)
 kotlin {
@@ -61,6 +62,10 @@ kotlin {
         }
 
         jsMain.dependencies {
+            implementation(libs.ktor.client.js)
+        }
+
+        wasmJsMain.dependencies {
             implementation(libs.ktor.client.js)
         }
 

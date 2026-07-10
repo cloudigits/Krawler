@@ -8,6 +8,7 @@ import solutions.dreamforge.krawler.domain.model.ExtractionRule
 import solutions.dreamforge.krawler.domain.model.ExtractionType
 import solutions.dreamforge.krawler.domain.model.PostProcessor
 import solutions.dreamforge.krawler.domain.model.Selector
+import kotlin.js.JsName
 
 /**
  * DSL marker to prevent scope leakage
@@ -307,13 +308,15 @@ class ExtractionRuleBuilder(
     /**
      * Mark rule as required
      */
+    @JsName("markRequired")
     fun required() {
         required = true
     }
-    
+
     /**
      * Allow multiple values
      */
+    @JsName("allowMultiple")
     fun multiple() {
         multiple = true
     }
