@@ -44,7 +44,6 @@ fun getExtraString(name: String) = ext[name]?.toString()
 publishing {
     // Configure maven central repository
     repositories {
-        // Static repo published to the fork's mvn-repo branch (covers targets JitPack can't build, e.g. iOS)
         maven(rootProject.layout.buildDirectory.dir("localMaven")) {
             name = "localMaven"
         }
