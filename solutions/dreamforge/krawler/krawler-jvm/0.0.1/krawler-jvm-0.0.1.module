@@ -1,0 +1,242 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../krawler/0.0.1/krawler-0.0.1.module",
+    "group": "solutions.dreamforge.krawler",
+    "module": "krawler",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "jvmApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "krawler-jvm-0.0.1.jar",
+          "url": "krawler-jvm-0.0.1.jar",
+          "size": 401106,
+          "sha512": "308462f6c6fa95cad701cfe60289186487e649ab3b3856b5c13479b92ecd00eb1c1f181027d420070e48dbe3e407f256d9d4780ae8137978e84643c87cc58625",
+          "sha256": "e9a74b86aa7a888419f7836a07a01e4cc9662edf425e1aabc339a9c6d16cee4e",
+          "sha1": "7ee9395eb04aae5130537a03ecaef0f43325fed6",
+          "md5": "c41fd66dd448204d07288bff29be2d46"
+        }
+      ]
+    },
+    {
+      "name": "jvmRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-swing",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-okhttp",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "ch.qos.logback",
+          "module": "logback-classic",
+          "version": {
+            "requires": "1.5.15"
+          }
+        },
+        {
+          "group": "com.github.crawler-commons",
+          "module": "crawler-commons",
+          "version": {
+            "requires": "1.4"
+          }
+        },
+        {
+          "group": "com.jayway.jsonpath",
+          "module": "json-path",
+          "version": {
+            "requires": "2.9.0"
+          }
+        },
+        {
+          "group": "com.typesafe",
+          "module": "config",
+          "version": {
+            "requires": "1.4.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "io.github.reactivecircus.cache4k",
+          "module": "cache4k",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.28.0-beta"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrent-collections",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "krawler-jvm-0.0.1.jar",
+          "url": "krawler-jvm-0.0.1.jar",
+          "size": 401106,
+          "sha512": "308462f6c6fa95cad701cfe60289186487e649ab3b3856b5c13479b92ecd00eb1c1f181027d420070e48dbe3e407f256d9d4780ae8137978e84643c87cc58625",
+          "sha256": "e9a74b86aa7a888419f7836a07a01e4cc9662edf425e1aabc339a9c6d16cee4e",
+          "sha1": "7ee9395eb04aae5130537a03ecaef0f43325fed6",
+          "md5": "c41fd66dd448204d07288bff29be2d46"
+        }
+      ]
+    },
+    {
+      "name": "jvmSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "standard-jvm",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "jvm"
+      },
+      "files": [
+        {
+          "name": "krawler-jvm-0.0.1-sources.jar",
+          "url": "krawler-jvm-0.0.1-sources.jar",
+          "size": 37037,
+          "sha512": "c4bcaa1e870c50dccc5563e3d6721e525c8abbee463028995261054c40baa2526334a30bc874f0f74100dc01d7c20e17239d15dd92e2062fecf97b2002e27f9b",
+          "sha256": "860dd59f14841af12df8bdca2a5c985dc919c755bcf148ede5d12b52b419456e",
+          "sha1": "315d3957a8153ca7500377834070b9b58f763ae0",
+          "md5": "fc08d3922e3f5df1baec013e62e20fe2"
+        }
+      ]
+    }
+  ]
+}

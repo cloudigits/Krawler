@@ -1,0 +1,221 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "url": "../../krawler/0.0.1/krawler-0.0.1.module",
+    "group": "solutions.dreamforge.krawler",
+    "module": "krawler",
+    "version": "0.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.14.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "wasmJsApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-api",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.28.0-beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "krawler-wasm-js-0.0.1.klib",
+          "url": "krawler-wasm-js-0.0.1.klib",
+          "size": 266699,
+          "sha512": "355108fcdb56a894532245e972b223f84928ebf6de4e971c259d7e1d4150972a8b0027b169c871acf9503f5923779fdf5ab0a612a1524a7c2b8b1d810cdd50a0",
+          "sha256": "a89ea5198b062f650e971f70863e059409613641466a61db9231f85c37ae37fa",
+          "sha1": "1663c8d68cc152b0c721fcb081562a64ff798262",
+          "md5": "89cf9d5d85ea82dec9db1c097b5eac38"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.28.0-beta"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.1.21"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-js",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-test",
+          "version": {
+            "requires": "1.10.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-serialization-json",
+          "version": {
+            "requires": "1.8.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-datetime",
+          "version": {
+            "requires": "0.6.2"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "kermit",
+          "version": {
+            "requires": "2.0.5"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-core",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-content-negotiation",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-serialization",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-serialization-kotlinx-json",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "io.ktor",
+          "module": "ktor-client-logging",
+          "version": {
+            "requires": "3.1.3"
+          }
+        },
+        {
+          "group": "com.fleeksoft.ksoup",
+          "module": "ksoup",
+          "version": {
+            "requires": "0.2.2"
+          }
+        },
+        {
+          "group": "io.github.reactivecircus.cache4k",
+          "module": "cache4k",
+          "version": {
+            "requires": "0.14.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "atomicfu",
+          "version": {
+            "requires": "0.28.0-beta"
+          }
+        },
+        {
+          "group": "co.touchlab",
+          "module": "stately-concurrent-collections",
+          "version": {
+            "requires": "2.1.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "krawler-wasm-js-0.0.1.klib",
+          "url": "krawler-wasm-js-0.0.1.klib",
+          "size": 266699,
+          "sha512": "355108fcdb56a894532245e972b223f84928ebf6de4e971c259d7e1d4150972a8b0027b169c871acf9503f5923779fdf5ab0a612a1524a7c2b8b1d810cdd50a0",
+          "sha256": "a89ea5198b062f650e971f70863e059409613641466a61db9231f85c37ae37fa",
+          "sha1": "1663c8d68cc152b0c721fcb081562a64ff798262",
+          "md5": "89cf9d5d85ea82dec9db1c097b5eac38"
+        }
+      ]
+    },
+    {
+      "name": "wasmJsSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "non-jvm",
+        "org.gradle.usage": "kotlin-runtime",
+        "org.jetbrains.kotlin.platform.type": "wasm",
+        "org.jetbrains.kotlin.wasm.target": "js"
+      },
+      "files": [
+        {
+          "name": "krawler-wasm-js-0.0.1-sources.jar",
+          "url": "krawler-wasm-js-0.0.1-sources.jar",
+          "size": 36948,
+          "sha512": "04a165c4669a5498dd4c238ef5d526c040458d335d34ab07a552d55344ed4ce879e729c34a04f0dd32c612e2f6c9bfd037d7e146896ad76ae58d5dd4876545f7",
+          "sha256": "d68018e467b1f52888bdd4232b41b8dba758a98d32a71adbe91307920aa49f11",
+          "sha1": "31b6c7c758269289a8b5a1787737b6f50ef925ab",
+          "md5": "2be632607d84f8e798668f3deca53bde"
+        }
+      ]
+    }
+  ]
+}
