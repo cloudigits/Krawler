@@ -292,8 +292,8 @@ class ExtractionRuleBuilder(
     private var selector: Selector,
     private var extractionType: ExtractionType
 ) {
-    var required: Boolean = false
-    var multiple: Boolean = false
+    private var isRequired: Boolean = false
+    private var isMultiple: Boolean = false
     
     private val postProcessors = mutableListOf<PostProcessor>()
     
@@ -308,14 +308,14 @@ class ExtractionRuleBuilder(
      * Mark rule as required
      */
     fun required() {
-        required = true
+        isRequired = true
     }
-    
+
     /**
      * Allow multiple values
      */
     fun multiple() {
-        multiple = true
+        isMultiple = true
     }
     
     /**
@@ -333,8 +333,8 @@ class ExtractionRuleBuilder(
             selector = selector,
             extractionType = extractionType,
             postProcessors = postProcessors.toList(),
-            required = required,
-            multiple = multiple
+            required = isRequired,
+            multiple = isMultiple
         )
     }
 }

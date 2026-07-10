@@ -11,6 +11,7 @@ import solutions.dreamforge.krawler.domain.model.CrawlResult
 import solutions.dreamforge.krawler.domain.model.CrawlStatus
 import solutions.dreamforge.krawler.domain.model.CrawlMetrics
 import solutions.dreamforge.krawler.domain.service.RobotsService
+import solutions.dreamforge.krawler.utils.IoDispatacher
 import solutions.dreamforge.krawler.utils.Logger
 import solutions.dreamforge.krawler.utils.currentTimeMillis
 import kotlin.text.get
@@ -80,7 +81,7 @@ class BatchCrawlUseCase(
 
             workers.joinAll()
             resultChannel.close()
-        }.flowOn(Dispatchers.IO)
+        }.flowOn(IoDispatacher)
          .buffer(1000)
     }
     
