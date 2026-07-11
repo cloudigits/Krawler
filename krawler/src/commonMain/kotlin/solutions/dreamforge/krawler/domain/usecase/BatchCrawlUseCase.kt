@@ -5,7 +5,7 @@ import kotlinx.atomicfu.*
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.*
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 import solutions.dreamforge.krawler.domain.model.CrawlRequest
 import solutions.dreamforge.krawler.domain.model.CrawlResult
 import solutions.dreamforge.krawler.domain.model.CrawlStatus

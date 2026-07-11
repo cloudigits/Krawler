@@ -3,7 +3,7 @@ package solutions.dreamforge.krawler.engine
 import kotlinx.coroutines.*
 import kotlinx.coroutines.channels.Channel
 import kotlinx.coroutines.flow.*
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 import solutions.dreamforge.krawler.domain.usecase.BatchCrawlUseCase
 import solutions.dreamforge.krawler.domain.usecase.CrawlWebPageUseCase
 import solutions.dreamforge.krawler.utils.StringFormat

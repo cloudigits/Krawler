@@ -2,8 +2,8 @@ package solutions.dreamforge.krawler.infrastructure.repository
 
 import kotlinx.coroutines.sync.Mutex
 import kotlinx.coroutines.sync.withLock
-import kotlinx.datetime.Clock
-import kotlinx.datetime.Instant
+import kotlin.time.Clock
+import kotlin.time.Instant
 import solutions.dreamforge.krawler.domain.model.*
 import solutions.dreamforge.krawler.domain.repository.CrawlRepository
 import solutions.dreamforge.krawler.domain.repository.CrawlStats

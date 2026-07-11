@@ -1,7 +1,7 @@
 package solutions.dreamforge.krawler.utils
 
 import kotlinx.coroutines.CoroutineDispatcher
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 
 fun currentTimeMillis(): Long = Clock.System.now().toEpochMilliseconds()
 

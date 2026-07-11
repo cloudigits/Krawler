@@ -1,7 +1,7 @@
 package solutions.dreamforge.krawler.dsl
 
 import solutions.dreamforge.krawler.engine.CrawlerEngineConfig
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 import solutions.dreamforge.krawler.domain.model.CrawlPolicy
 import solutions.dreamforge.krawler.domain.model.CrawlRequest
 import solutions.dreamforge.krawler.domain.model.ExtractionRule

@@ -2,7 +2,7 @@ package solutions.dreamforge.krawler
 
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.onEach
-import kotlinx.datetime.Clock
+import kotlin.time.Clock
 import solutions.dreamforge.krawler.domain.model.CrawlRequest
 import solutions.dreamforge.krawler.domain.model.CrawlResult
 import solutions.dreamforge.krawler.domain.repository.CrawlRepository
